@@ -54,6 +54,7 @@
    margin-left: 200px; 
    border-radius: 10px;
 }
+
 .sub-container-1{
     display: flex;
     align-items: center;
@@ -310,4 +311,171 @@
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 10px;
+}
+
+@media screen and (max-width:950px){
+   .items{
+    display: none;
+   } 
+
+   .logo img{
+    width: 90px;
+   }
+
+   .navbar{
+    margin: 0px 20px;
+}
+
+.sub-container-1{
+    flex-direction: column;
+    padding: 0px;
+}
+
+.sub-container-1 img{
+    margin-left: 0px; 
+    margin-top: 40px;
+ }
+
+ .textbox-1{
+    margin: 20px 20px;    
+}
+
+.textbox-1 h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.textbox-1 p{
+    text-align: center;
+}
+
+.container-2-text h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.container-2-text{
+    margin: 30px 20px;
+}
+
+.sub-container-2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.count{
+    padding: 10px;
+}
+
+.count h1{
+    font-size: 20px;
+}
+
+.count h6{
+    font-size: 12px;
+    text-align: center;
+}
+
+.img-2 img {
+    width: 350px;
+    margin-top: 20px;
+}
+
+.container-3-text{
+    margin: 30px 20px;
+}
+
+.common-container-1{
+    flex-direction: column-reverse;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.common-image1 img{
+    width: 350px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.common-image2 img{
+    width: 350px;
+    margin-right: 0px;
+}
+
+.common-container-2{
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 20px;
+}
+
+.common-container-2 h1{
+    text-align: center;
+}
+
+.common-container-2 p{
+    text-align: center;
+}
+
+
+
+.container-6{
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+.container-6 h1{
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+.container-6 p{
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+.sub-container-6{
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+.sub-container-6 h3{
+    margin-top: 10px;
+    color: #1b1d21;
+    text-align: center;
+}
+
+.sub-container-6 p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button button{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.footer{
+    background-color: #10181d;
+    padding: 30px 20px;
+}
+
+.footer-2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.footer-2 ul{
+    margin-bottom: 20px;
+}
+
+
 }
